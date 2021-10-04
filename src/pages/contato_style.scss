@@ -1,0 +1,24 @@
+header {
+  background: #3f00f2;
+  display: flex;
+  justify-content: center;
+}
+header img{
+  width: 100px;
+  height: 100px;
+}
+header h3{
+  color: white;
+}
+.main {
+  .socialMedia{
+    display: grid;
+    grid-column: 3;
+    grid-template-columns: 1fr 1fr;
+	  grid-auto-columns: 100px;
+  }
+}
+
+body {
+  background: white;
+}
